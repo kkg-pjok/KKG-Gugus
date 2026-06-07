@@ -1,0 +1,6 @@
+{
+  "name": "KKG Gugus Padaawas Pasirwangi",
+  "description": "Portal Organisasi dan Dashboard Interaktif Kelompok Kerja Guru (KKG) Gugus Padaawas Kecamatan Pasirwangi",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

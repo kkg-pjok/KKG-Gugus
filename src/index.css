@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
+@import "tailwindcss";
+
+
+body {
+  font-family: 'Inter', system-ui, -apple-system, sans-serif !important;
+  background-color: #F0F2F5 !important;
+}
+
+.sidebar-gradient {
+  background: linear-gradient(180deg, #1E3A8A 0%, #065F46 100%) !important;
+}
+
+.card-shadow {
+  box-shadow: 0 4px 6px -1px rgba(0,0,0,0.1), 0 2px 4px -1px rgba(0,0,0,0.06) !important;
+}
+
+.custom-scrollbar::-webkit-scrollbar {
+  width: 4px;
+}
+.custom-scrollbar::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+.custom-scrollbar::-webkit-scrollbar-thumb {
+  background: #888;
+  border-radius: 10px;
+}
+
+.chat-bubble-left {
+  background-color: #FFFFFF !important;
+  border-radius: 0 12px 12px 12px !important;
+}
+
+.chat-bubble-right {
+  background-color: #DCF8C6 !important;
+  border-radius: 12px 0 12px 12px !important;
+}
+
+@keyframes textShine {
+  0% {
+    background-position: -200% center;
+  }
+  100% {
+    background-position: 200% center;
+  }
+}
+
+.shine-text-white {
+  background: linear-gradient(
+    90deg,
+    #ffffff 20%,
+    #e2e8f0 35%,
+    #ffffff 45%,
+    #fef8c3 50%,
+    #ffffff 55%,
+    #e2e8f0 65%,
+    #ffffff 80%
+  );
+  background-size: 200% auto;
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-fill-color: transparent;
+  animation: textShine 4s linear infinite;
+}
+
+.shine-text-amber {
+  background: linear-gradient(
+    90deg,
+    #fbbf24 20%,
+    #f59e0b 35%,
+    #fbbf24 45%,
+    #ffffff 50%,
+    #fbbf24 55%,
+    #f59e0b 65%,
+    #fbbf24 80%
+  );
+  background-size: 200% auto;
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-fill-color: transparent;
+  animation: textShine 4s linear infinite;
+}
+
